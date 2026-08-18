@@ -1,0 +1,222 @@
+[
+  {
+    "id": 0,
+    "prompt": "Write the opening paragraph of a mystery novel set in a small coastal town. Keep it to a single paragraph of about 120 words.",
+    "textA": "The fog had settled over Seabrook like a thick, whispering shroud, wrapping the quaint coastal town in an eerie silence that seemed to stifle even the usual symphony of crashing waves and seagulls' cries. It was under this atmospheric veil that old Mrs. Weatherby's dilapidated lighthouse, perched precariously on the cliff's edge, became the unlikely epicenter of intrigue. No one had seen or heard from the reclusive keeper for days, and when the morning sun finally burned through the mist, revealing the door ajar and no sign of life within, whispers of foul play began to ripple through the tight-knit community like a sinister tide.",
+    "textB": "The fog rolled in like an old, whispering ghost, settling over the quaint coastal town of Marisport and wrapping its chill fingers around every cobblestone street and weathered wooden pier. It was on one such misty evening that the lighthouse keeper, Mr. Eliot, found something—or rather, someone—washed up at the base of the cliffs. The body was that of a young woman, her face pale and eyes closed in an eternal sleep, clutching a seashell with a note tucked inside. As the news spread through the sleepy town, long-held secrets began to stir, and the tight-knit community found itself caught in a web of lies and hidden truths, all under the watchful gaze of the fog.",
+    "watermarked": "A",
+    "scoreW": 0.5289215445518494,
+    "scoreC": 0.5034013390541077,
+    "pW": 0.0001100645094400722,
+    "pC": 0.3257241515171687
+  },
+  {
+    "id": 1,
+    "prompt": "Write the first paragraph of a science fiction story about a translator who works between humans and an alien species. Keep it to a single paragraph of about 120 words.",
+    "textA": "In the bustling heart of New Terra, where humanity had established its first extraterrestrial colony, Aria stood before the translucent communication chamber, her eyes locked onto the undulating, bioluminescent form of the Xylophi ambassador. As the lead xenolinguist, she was the sole bridge between two vastly different civilizations, tasked with translating not just words, but entire concepts that often defied human comprehension. Today's meeting promised to be particularly challenging, as the Xylophi sought to negotiate access to resources critical for their survival, resources that were also essential for the colony’s growth. Aria took a deep breath, her mind racing through the complex grammatical structures and cultural nuances that would make or break this delicate negotiation.",
+    "textB": "In the bustling hub of New Atlantis, where humanity's dreams of interstellar diplomacy were forged, Elara Myles sat at the heart of it all, her fingers dancing across the holographic interface of her translation device. The device, a marvel of quantum entanglement and artificial intelligence, was designed to bridge the communication gap between humans and the enigmatic Zorathians, whose language was as complex as their society. As she translated the subtle nuances of Zorathian syntax into comprehensible human speech, Elara couldn't help but feel like a fragile thread in the vast tapestry of cosmic understanding, holding two worlds delicately apart yet together.",
+    "watermarked": "A",
+    "scoreW": 0.5365740656852722,
+    "scoreC": 0.49921876192092896,
+    "pW": 7.63055803436767e-07,
+    "pC": 0.5385665629869997
+  },
+  {
+    "id": 3,
+    "prompt": "Write the first paragraph of a ghost story set in a modern apartment building. Keep it to a single paragraph of about 120 words.",
+    "textA": "In the sleek, modern apartment building on Elm Street, where glass and steel met the relentless march of urban renewal, the residents rarely spoke of the peculiar happenings after dark. It began with whispers of footsteps echoing through the halls when no one was around, followed by doors that would slam shut without a draft to explain it. Late one night, as the city slept under a blanket of stars, Sarah, a new tenant on the seventh floor, heard her name murmured softly from the other side of her closed door, a voice she couldn't place but felt an inexplicable pull towards, setting the stage for nights filled with unease and unexplained phenomena.",
+    "textB": "In the sleek, modern apartment building on Elm Street, the sound of footsteps echoed through the empty halls long after the night watchman had clocked out. Apartment 3B, a penthouse with panoramic city views, sat dark and silent, its curtains billowing as if a gentle breeze passed through, despite the sealed windows. The residents downstairs often reported a peculiar chill whenever they passed by the door, and some claimed to have heard faint, melancholic piano melodies that seemed to emanate from within, even though no one lived there. These occurrences were dismissed as urban legends until new tenant, Emma, moved in, only to find her presence triggered an unsettling sequence of events that blurred the line between the living and the dead.",
+    "watermarked": "A",
+    "scoreW": 0.5239583253860474,
+    "scoreC": 0.49342721700668335,
+    "pW": 0.001492461998018564,
+    "pC": 0.8045520235151412
+  },
+  {
+    "id": 5,
+    "prompt": "Write the first paragraph of a story about two strangers stuck in an airport overnight. Keep it to a single paragraph of about 120 words.",
+    "textA": "As the storm raged outside, turning the night sky into a chaotic blur of lightning and thunder, Sarah and Michael found themselves among the few stranded passengers at the small-town airport. Both with exhausted eyes and weary hearts, they shared a glance over the crowded waiting area filled with restless travelers. Sarah, clutching her leather-bound journal, and Michael, with his guitar case by his side, were worlds apart in their usual lives, but tonight, fate had woven their paths together in this unexpected, shared exile. As the announcement came that flights would be delayed until morning, a sense of reluctant camaraderie began to form between them, under the dim glow of the terminal lights.",
+    "textB": "As the storm raged outside, transforming the once bustling terminal into a quiet, dimly lit sanctuary, Sarah and Michael found themselves among the handful of stranded travelers. Both had been planning to catch connecting flights home, but now they were sharing a corner of the crowded waiting area, their eyes occasionally meeting over the maze of reclined seats and slumbering passengers. The hum of the overhead fluorescent lights mingled with distant announcements of flight delays, creating an atmosphere of shared uncertainty and weary patience. As the night deepened, a silent pact seemed to form between them, a mutual understanding that they would be each other's only companions through this unexpected overnight stay.",
+    "watermarked": "B",
+    "scoreW": 0.526562511920929,
+    "scoreC": 0.4967171847820282,
+    "pW": 0.0004973220557385584,
+    "pC": 0.6602573103654175
+  },
+  {
+    "id": 7,
+    "prompt": "Write a blog paragraph about why paper books beat e-readers. Keep it to a single paragraph of about 120 words.",
+    "textA": "While e-readers offer convenience and portability, there's an irreplaceable charm in the tactile experience of traditional paper books. The rustle of pages, the smell of the paper, and the physical weight of a book as you progress through its chapters create a sensory engagement that digital screens can't replicate. Paper books also eliminate the blue light exposure and eye strain associated with prolonged screen time, making for a more relaxing reading session. Moreover, the act of physically marking a page or leaving a book open to a favorite passage is a personal touch that adds to the joy of reading, allowing readers to forge a deeper connection with their books.",
+    "textB": "While e-readers offer undeniable convenience and accessibility, paper books continue to hold a special charm that digital versions can't quite match. There's an irreplaceable tactile pleasure in flipping through pages, feeling the texture of the paper, and smelling the ink, which enhances the reading experience in a way screens cannot. Paper books also lack the potential for distraction that comes with devices connected to the internet, allowing readers to immerse themselves fully in the story without interruptions. Moreover, the physical presence of a bookshelf, lined with beloved novels and memoirs, serves as a testament to one’s literary journey, something that e-readers, despite their many benefits, simply cannot replicate.",
+    "watermarked": "B",
+    "scoreW": 0.5256997346878052,
+    "scoreC": 0.5016129016876221,
+    "pW": 0.0006360117047571359,
+    "pC": 0.42201254375228153
+  },
+  {
+    "id": 8,
+    "prompt": "Write an opinion paragraph on whether tipping culture has gone too far. Keep it to a single paragraph of about 120 words.",
+    "textA": "The tipping culture in many service industries has arguably spiraled out of control, turning what was once a voluntary gesture into a financial lifeline for workers. As wages remain stagnant or low, the burden of making ends meet is increasingly shouldered by tips, which can create significant income instability and exacerbate economic inequality. This shift pressures customers to tip generously, not as a reward for exceptional service but as a necessity for basic wage adequacy. While tipping can incentivize good service, its current magnitude often distorts the relationship between employers, employees, and consumers, suggesting that systemic changes in wage policies might be more equitable than relying on the whims of gratuity.",
+    "textB": "The tipping culture in many service industries has indeed escalated to levels that can be seen as excessive, with expectations sometimes reaching up to 20% or more for standard services like dining out. This trend not only places undue financial strain on consumers but also skews the compensation structure for workers, often making tips their primary source of income rather than a supplementary reward for good service. This shift can lead to inconsistencies in earnings and unfair wage practices, highlighting the need for a reevaluation of how service industry employees are compensated to ensure stability and fairness without overburdening customers.",
+    "watermarked": "B",
+    "scoreW": 0.521212100982666,
+    "scoreC": 0.49658793210983276,
+    "pW": 0.007403102147509281,
+    "pC": 0.6632031913237384
+  },
+  {
+    "id": 10,
+    "prompt": "Write a blog paragraph about why everyone should learn to cook one great dish. Keep it to a single paragraph of about 120 words.",
+    "textA": "Learning to cook just one great dish can significantly enhance your culinary confidence and personal satisfaction. Whether it's a classic lasagna, a perfectly seared steak, or an aromatic curry, mastering a dish teaches valuable skills like following recipes, understanding flavors, and managing kitchen tools. This foundational knowledge not only allows you to impress friends and family but also opens the door to exploring variations and experimenting with new ingredients. Moreover, cooking a dish from scratch fosters a deeper appreciation for food and can lead to healthier eating habits. In a world where convenience often overshadows the joy of preparation, learning to cook is a rewarding skill that connects us to our cultural heritage and enriches our daily lives.",
+    "textB": "Mastering the art of cooking even just one great dish can significantly enhance your quality of life and social interactions. Not only does it provide you with a valuable skill that can save money and ensure you always have a delicious meal ready, but it also opens doors to sharing something deeply personal with friends and family. Cooking becomes a form of expression, a way to convey care and thoughtfulness without words. It fosters a sense of accomplishment and self-sufficiency, encouraging a deeper connection with food and the process of feeding oneself and others. Whether it's a classic lasagna or a simple yet flavorful stir-fry, having this culinary talent in your arsenal is an enriching endeavor that can bring joy and satisfaction for years to come.",
+    "watermarked": "B",
+    "scoreW": 0.5227699279785156,
+    "scoreC": 0.5133838653564453,
+    "pW": 0.0014777630233455687,
+    "pC": 0.04604698412890189
+  },
+  {
+    "id": 12,
+    "prompt": "Write a product description for a mechanical keyboard aimed at writers. Keep it to a single paragraph of about 120 words.",
+    "textA": "Elevate your writing experience with our premium mechanical keyboard, meticulously designed for the discerning writer. Featuring silent linear switches, it ensures a smooth keystroke without compromising on tactile feedback, allowing you to type longer sessions in comfort and silence. Its robust aluminum frame provides a stable base, while customizable RGB lighting lets you personalize your workspace. With a spill-resistant design and a wide array of programmable hotkeys to streamline your workflow, this keyboard is not just an accessory but a tool that enhances productivity. Whether crafting novels or drafting articles, every key press feels purposeful, making your creative process as enjoyable as the final product.",
+    "textB": "Craft your literary masterpieces with the precision and comfort of our Writers' Haven Mechanical Keyboard. Designed specifically for writers, this keyboard features quiet yet tactile Cherry MX Brown switches, perfect for long typing sessions without disturbing your surroundings. With an ergonomic design that supports natural wrist positioning and anti-ghosting technology ensuring every keystroke is accurately registered, you can focus solely on your craft. The backlit keys provide clarity in any lighting condition, while customizable key mappings allow you to streamline your writing process. Whether you're crafting the next bestseller or penning down daily reflections, this keyboard promises to be your trusted companion in turning thoughts into words with elegance and efficiency.",
+    "watermarked": "A",
+    "scoreW": 0.529201090335846,
+    "scoreC": 0.5039370059967041,
+    "pW": 0.00021683250616024338,
+    "pC": 0.3134747399295603
+  },
+  {
+    "id": 13,
+    "prompt": "Write a product blurb for a thermos that keeps coffee hot for 24 hours. Keep it to a single paragraph of about 120 words.",
+    "textA": "Introducing the ultimate companion for your caffeine journey: the 24-Hour Thermal Coffee Keeper. Designed with state-of-the-art vacuum insulation technology, this sleek and durable thermos promises to keep your favorite brew piping hot for an astounding 24 hours—perfect for those long workdays or early morning hikes. Its ergonomic design not only ensures a comfortable grip but also boasts a leak-proof lid to ensure your beverage stays contained. Crafted from premium, food-grade stainless steel, this thermos is both safe and easy to clean. Whether you're a coffee aficionado or simply someone who appreciates a good cup of joe, the 24-Hour Thermal Coffee Keeper is your perfect travel companion, ensuring you never have to settle for a lukewarm sip again.",
+    "textB": "Introducing the ultimate companion for your caffeine cravings—the 24-Hour Thermal Coffee Keeper. Designed with state-of-the-art vacuum insulation technology, this sleek thermos ensures your coffee remains piping hot for an impressive 24 hours, no matter where your day takes you. Its durable stainless steel construction is not only built to last but also adds a touch of elegance to any setting. The easy-grip design and spill-resistant lid make it perfect for those on the go, whether you're commuting to work or embarking on an adventure. Say goodbye to lukewarm coffee and hello to consistently perfect brews with every sip. Elevate your coffee experience with our 24-Hour Thermal Coffee Keeper—where every moment is prime time for a great cup of coffee.",
+    "watermarked": "B",
+    "scoreW": 0.5187214612960815,
+    "scoreC": 0.5068965554237366,
+    "pW": 0.006605476959027258,
+    "pC": 0.18148558745432772
+  },
+  {
+    "id": 14,
+    "prompt": "Write a product description for a minimalist wallet. Keep it to a single paragraph of about 120 words.",
+    "textA": "Introducing the sleek and functional Minimalist Wallet, designed for those who value simplicity and efficiency in their everyday carry. Crafted from premium, lightweight leather, this wallet features a clean, uncluttered design with just enough card slots and a cash compartment to keep your essentials organized without the bulk. Its slim profile ensures easy fitting into any pocket, while its durable construction promises longevity. With a subtle finish that ages gracefully over time, this wallet is not just a practical accessory but also a stylish statement of minimalism. Perfect for the modern individual seeking a blend of style, functionality, and timeless elegance.",
+    "textB": "Introducing the sleek and functional Minimalist Wallet, designed for those who prioritize simplicity and elegance in their everyday carry. Crafted from premium, lightweight leather, this wallet features a slim profile that fits seamlessly into any pocket without bulking up your look. Its interior is thoughtfully organized with card slots and a bill compartment, accommodating all your essentials while keeping clutter at bay. The minimalist design not only enhances durability but also ensures effortless access to your cards and cash. Whether you're commuting, traveling, or simply running errands, this wallet is your perfect companion, blending style with practicality.",
+    "watermarked": "A",
+    "scoreW": 0.525356113910675,
+    "scoreC": 0.5023391842842102,
+    "pW": 0.0013302690950451413,
+    "pC": 0.3921981006646804
+  },
+  {
+    "id": 15,
+    "prompt": "Write a product blurb for noise-cancelling headphones marketed to commuters. Keep it to a single paragraph of about 120 words.",
+    "textA": "Elevate your commute with our cutting-edge noise-cancelling headphones, meticulously designed to transform your daily journey into a serene oasis. With advanced noise isolation technology, these headphones effectively block out the cacophony of city streets and train stations, allowing you to immerse yourself in music, podcasts, or calls without interruption. Their ergonomic design ensures all-day comfort, while the durable build withstands the rigors of frequent use. Equipped with intuitive controls and wireless convenience, they promise effortless operation and seamless connectivity. Say goodbye to noisy commutes and hello to your personal sound sanctuary, wherever you travel.",
+    "textB": "Elevate your commute with our cutting-edge noise-cancelling headphones, designed specifically to transform your daily travel into a serene escape. Featuring advanced active noise cancellation technology, these headphones block out the cacophony of city life, allowing you to immerse yourself in your favorite tunes or podcasts without interruption. With up to 30 hours of battery life and ultra-comfortable ear cushions, they ensure you're always prepared for any journey, long or short. The sleek, ergonomic design not only looks great but also ensures a snug fit that stays comfortable throughout your day. Say goodbye to noisy commutes and hello to tranquility with every wear.",
+    "watermarked": "B",
+    "scoreW": 0.5269841551780701,
+    "scoreC": 0.49971508979797363,
+    "pW": 0.00045321902625816154,
+    "pC": 0.5134653961196768
+  },
+  {
+    "id": 16,
+    "prompt": "Write a product description for a beginner-friendly houseplant subscription box. Keep it to a single paragraph of about 120 words.",
+    "textA": "Introducing Green Beginnings, the perfect subscription box for aspiring plant parents! Each month, receive a beautifully curated selection of low-maintenance, beginner-friendly houseplants, tailored to thrive even in less-than-ideal conditions. Along with your new green companions, you'll get a care guide packed with tips on lighting, watering, and more, ensuring your plants not only survive but flourish under your care. Whether you're decorating a new home or simply want to add some life to your space, Green Beginnings makes it easy and enjoyable to grow your indoor garden, one happy, healthy plant at a time. Start your journey into the world of plant parenthood today!",
+    "textB": "Discover the joy of indoor gardening with our Beginner-Friendly Houseplant Subscription Box! Each month, you'll receive a beautifully curated selection of low-maintenance plants, carefully chosen for their ease of care and vibrant aesthetics. Along with your plants, enjoy informative guides that cover essential care tips, from watering needs to ideal lighting conditions. Perfect for first-time plant parents or those looking to expand their green thumb skills, this subscription ensures a delightful, hassle-free experience in nurturing nature indoors. Embrace the serene beauty of living decor and watch as your home transforms into a lush oasis, one plant at a time.",
+    "watermarked": "A",
+    "scoreW": 0.5299741625785828,
+    "scoreC": 0.4905172288417816,
+    "pW": 9.598915858473266e-05,
+    "pC": 0.8683885997882557
+  },
+  {
+    "id": 17,
+    "prompt": "Write a product blurb for a weighted blanket. Keep it to a single paragraph of about 120 words.",
+    "textA": "Experience unparalleled relaxation with our Premium Weighted Blanket, meticulously crafted to enhance your sleep and reduce stress. Designed with high-quality glass beads evenly distributed in soft, breathable fabric, this blanket offers a gentle yet firm embrace that mimics the feeling of being hugged, promoting deep relaxation and better sleep. Available in various weights to suit individual needs, it's perfect for adults seeking relief from anxiety, insomnia, or restless nights. Its soothing effect can also help manage symptoms of ADHD and autism, making it a versatile choice for all ages. Easy to care for and hypoallergenic, our weighted blanket is your new essential for a peaceful night's rest and tranquility.",
+    "textB": "Discover the comforting embrace of our premium weighted blanket, designed to enhance your relaxation and improve sleep quality. Crafted with high-quality materials and filled with evenly distributed microglass beads, this blanket provides a gentle, calming pressure that mimics a soothing hug. Its breathable cover ensures comfort in any season, while its variety of sizes and weights cater to individual preferences, making it ideal for both adults and children. Whether you're seeking relief from stress, anxiety, or simply a deeper, more restful sleep, our weighted blanket is your key to tranquility. Experience the difference a night of serene sleep can make in your daily life.",
+    "watermarked": "B",
+    "scoreW": 0.5201101899147034,
+    "scoreC": 0.502842366695404,
+    "pW": 0.007691019673596,
+    "pC": 0.361803064350681
+  },
+  {
+    "id": 21,
+    "prompt": "Give advice on keeping a New Year's resolution past January. Keep it to a single paragraph of about 120 words.",
+    "textA": "To keep a New Year's resolution beyond January, start by setting realistic and specific goals that are achievable in the long term. Break your resolution into smaller, manageable steps and celebrate each milestone to stay motivated. Share your goals with friends or family to gain support and accountability. Regularly review your progress and be flexible to adjust your plan as needed without feeling discouraged. Embrace setbacks as learning opportunities rather than failures. Lastly, integrate new habits gradually into your routine so they become second nature, helping you maintain focus and commitment throughout the year.",
+    "textB": "To keep a New Year's resolution going past January, start by setting realistic, specific goals that are achievable in the long term rather than overly ambitious ones likely to fail quickly. Break your resolution into smaller, manageable steps and celebrate small victories along the way to maintain motivation. Regularly remind yourself why this goal is important to you, and adjust your approach as needed based on what's working or not. Find an accountability partner or community for support and encouragement. Lastly, be kind to yourself—setbacks happen, but getting back on track after a slip-up is crucial. By staying flexible and committed, you can make lasting changes well beyond the first month of the year.",
+    "watermarked": "B",
+    "scoreW": 0.5299999713897705,
+    "scoreC": 0.5084142684936523,
+    "pW": 8.948274555342329e-05,
+    "pC": 0.17477543360819084
+  },
+  {
+    "id": 22,
+    "prompt": "Give advice to someone learning to drive later in life than their peers. Keep it to a single paragraph of about 120 words.",
+    "textA": "Learning to drive later in life can feel daunting, especially when you see younger peers already navigating the roads with ease. Remember, driving is a skill that benefits from patience and practice, not just age. Start by familiarizing yourself thoroughly with traffic rules and road signs to build confidence before getting behind the wheel. Practice regularly, starting in less stressful environments like empty parking lots or quiet residential streets. It's also beneficial to be patient with yourself; everyone learns at their own pace. Don’t hesitate to ask for guidance from experienced drivers or consider professional lessons if you feel unsure. With consistent effort and a positive attitude, you'll soon find yourself comfortable and competent on the road.",
+    "textB": "Learning to drive later in life can feel daunting, but remember, experience and maturity are significant advantages. Take your time, focus on building confidence gradually, and don't hesitate to ask questions during lessons. Practice regularly, even if it's just driving around familiar areas, to build familiarity with the vehicle and road rules. Embrace any mistakes as learning opportunities; they're part of becoming proficient. Lastly, stay patient with yourself—everyone learns at their own pace. With persistence and practice, you'll soon find navigating the roads becomes second nature, opening up new freedoms and experiences.",
+    "watermarked": "A",
+    "scoreW": 0.5317948460578918,
+    "scoreC": 0.5030030012130737,
+    "pW": 3.575950897750083e-05,
+    "pC": 0.36445220066012873
+  },
+  {
+    "id": 24,
+    "prompt": "Explain to a curious friend why the sky changes color at sunset. Keep it to a single paragraph of about 120 words.",
+    "textA": "The changing colors of the sky at sunset are a beautiful display caused by the way sunlight interacts with Earth's atmosphere. As the sun descends towards the horizon, its light has to pass through more of the Earth's atmosphere, which scatters shorter blue and green wavelengths, allowing longer wavelength reds, oranges, and yellows to dominate the view. This scattering effect, known as Rayleigh scattering, intensifies as the sun gets lower because the light travels a longer path through the atmosphere, resulting in deeper hues of orange and red. Additionally, particles like dust and pollution can enhance these colors, creating the vibrant and ever-changing palette we see during a sunset.",
+    "textB": "The changing colors of the sky at sunset are a beautiful spectacle caused by an effect called scattering. As the sun dips towards the horizon, its light has to pass through more of Earth's atmosphere than during the day. Shorter wavelengths (like blue and violet) scatter more efficiently in all directions due to particles in the atmosphere, while longer wavelengths (like red, orange, and yellow) travel more directly. With the sun lower in the sky, less blue and violet light reaches our eyes because much of it gets scattered away from our line of sight. This leaves behind the warmer tones, painting the sky with stunning hues of reds, oranges, and pinks, creating the breathtaking views we associate with sunsets.",
+    "watermarked": "A",
+    "scoreW": 0.5291666388511658,
+    "scoreC": 0.4745803475379944,
+    "pW": 0.00015030080360350584,
+    "pC": 0.9994864119005266
+  },
+  {
+    "id": 25,
+    "prompt": "Explain casually why sourdough bread needs a starter. Keep it to a single paragraph of about 120 words.",
+    "textA": "Sourdough bread's unique flavor and texture come from using a starter instead of commercial yeast. A starter is essentially a community of wild yeast and bacteria that ferment the dough, giving it a tangy taste and a more complex structure. This natural fermentation process takes longer than using regular yeast but allows for deeper flavor development and better digestion due to the pre-digestion of gluten by the lactic acid bacteria. The starter also helps the bread rise by producing gases that create air pockets, leading to that signature open crumb we love in sourdough. So, the starter isn't just a quirky tradition; it's essential for creating the distinctive qualities that make sourdough so beloved.",
+    "textB": "Sourdough bread's unique flavor and texture come from its starter, which is essentially a wild yeast and bacteria culture. Think of the starter as the bread's probiotic; it's teeming with microorganisms that help the dough rise naturally and give sourdough its characteristic tangy taste. Unlike commercial yeasts, these natural yeasts and lactobacilli work more slowly, allowing flavors to develop over time. This slow fermentation process not only gives the bread its distinctive qualities but also makes it easier to digest. So, when you're baking sourdough, the starter isn't just a rising agent; it’s the heart of the recipe, breathing life into your loaf.",
+    "watermarked": "A",
+    "scoreW": 0.518407940864563,
+    "scoreC": 0.5020050406455994,
+    "pW": 0.009791195906905569,
+    "pC": 0.40001719876616737
+  },
+  {
+    "id": 27,
+    "prompt": "Explain casually how noise-cancelling headphones work. Keep it to a single paragraph of about 120 words.",
+    "textA": "Noise-cancelling headphones are like having a personal sound shield. They work by using microphones to pick up ambient noises around you. These mics capture the sounds and send them to a processor in the headphones that creates an \"anti-noise\" — essentially, a mirror image of those sounds but with the peaks and troughs reversed. When this anti-noise is played through the headphones along with your music or whatever you're listening to, it cancels out the original noise, making it seem like it's not there at all. It's kind of like when two waves meet and cancel each other out. This technology allows you to enjoy your tunes or calls in peace, even in noisy environments.",
+    "textB": "Noise-cancelling headphones are pretty neat! They work by using microphones to pick up ambient sounds around you. These sounds are then processed by the headphone's circuitry, which generates an \"anti-noise\" signal that's the exact opposite of the incoming sound waves. When these anti-sound waves mix with the original noise, they cancel each other out, effectively eliminating the unwanted sounds. This process is called active noise cancellation and it allows you to enjoy your music or have peace and quiet without the distraction of external noises like traffic or chatter. It's like having a personal bubble of silence, perfect for commuting or focusing.",
+    "watermarked": "A",
+    "scoreW": 0.5272505879402161,
+    "scoreC": 0.5114753842353821,
+    "pW": 0.0002378926722888387,
+    "pC": 0.08249636722454667
+  },
+  {
+    "id": 28,
+    "prompt": "Explain to a curious kid why onions make you cry. Keep it to a single paragraph of about 120 words.",
+    "textA": "When you cut an onion, you break its cells, which release a special gas called syn-propanethial-S-oxide. This gas floats up and can reach your eyes, where it mixes with the water in them to create a mild acid. Your eyes don't like this acid and start to water, trying to wash it away, which is why you feel like crying when chopping onions. Some fun ways to avoid this are by cutting onions under running water or chilling them in the fridge for a bit before slicing, which can slow down the gas from reaching your eyes!",
+    "textB": "When you cut an onion, you're breaking tiny cells inside it that hold something called \"pro-teens\" (short for proteins). These pro-teens mix with the air and create a gas that's really good at finding your eyes. When this gas reaches your eyes, it feels like water is trying to come out, so your body thinks your eyes need watering to stay safe. That's why you start to cry! It's your body's way of protecting your eyes from what it thinks might be harmful stuff in the air. So next time you chop an onion, remember, your body is just trying to keep your eyes super clean and safe!",
+    "watermarked": "A",
+    "scoreW": 0.5306306481361389,
+    "scoreC": 0.5007873773574829,
+    "pW": 0.00020376902831603536,
+    "pC": 0.46128297174788124
+  },
+  {
+    "id": 29,
+    "prompt": "Explain casually why some songs get stuck in your head. Keep it to a single paragraph of about 120 words.",
+    "textA": "Songs that get stuck in your head, often called earworms, tend to be catchy because they have simple, repetitive melodies and rhythms that your brain finds easy to process and remember. Usually, these tunes have a strong hook or a memorable part that your mind latches onto. Stress, boredom, or even actively trying not to think about the song can make it loop endlessly in your head. It's your brain's way of processing and holding onto something familiar and comforting, kind of like how you might find yourself humming along to a jingle you heard on TV. Sometimes, just acknowledging the song and listening to it fully can help break the cycle, but other times, your brain might just need time to move on to the next catchy tune.",
+    "textB": "Ever wondered why some tunes just stick around in your noggin like they're on permanent repeat? It's mostly due to what scientists call an \"earworm,\" which is a catchy snippet of music that loops over and over in your mind. Songs with simple, repetitive melodies and memorable hooks tend to be the biggest culprits. Our brains seem to favor these because they're easy to remember and predict. Stress or boredom can also trigger your brain to latch onto a song as a form of mental distraction or comfort. Interestingly, the more you listen to a song, the more likely it is to burrow into your brain's memory banks, making it harder to shake off later. So, next time a song gets stuck on repeat in your head, you might want to blame its catchy tune and your own brain for teaming up against you!",
+    "watermarked": "A",
+    "scoreW": 0.5203196406364441,
+    "scoreC": 0.5,
+    "pW": 0.0035771922902312985,
+    "pC": 0.5
+  }
+]
