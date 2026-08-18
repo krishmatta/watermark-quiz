@@ -1,0 +1,14 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment / credentials
+.env
+
+# Cloudflare Worker
+worker/node_modules/
+worker/.wrangler/
+
+# OS noise
+.DS_Store
