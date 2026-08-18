@@ -25,8 +25,14 @@ SAMPLING = {
     "do_sample": True,
     "temperature": 0.9,
     "top_k": 64,
-    "max_new_tokens": 250,
+    # Headroom, not a target: prompts ask for ~120 words and verification
+    # rejects any generation that hit this cap instead of ending naturally.
+    "max_new_tokens": 400,
 }
+
+# Appended to every prompt so generations end on their own well before
+# the token cap; truncated text would be unreadable in the quiz.
+PROMPT_SUFFIX = " Keep it to a single paragraph of about 120 words."
 
 # High-entropy genres only: creative/opinion writing gives the sampler
 # room to embed the watermark. No math, code, or factual recall.
@@ -91,7 +97,8 @@ def generate() -> dict:
     watermarking_config = SynthIDTextWatermarkingConfig(keys=WATERMARK_KEYS, ngram_len=NGRAM_LEN)
 
     pairs = []
-    for i, prompt in enumerate(PROMPTS):
+    for i, base_prompt in enumerate(PROMPTS):
+        prompt = base_prompt + PROMPT_SUFFIX
         inputs = tokenizer.apply_chat_template(
             [{"role": "user", "content": prompt}],
             add_generation_prompt=True,
