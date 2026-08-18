@@ -90,6 +90,21 @@ def generate() -> dict:
     from transformers import AutoModelForCausalLM, AutoTokenizer
     from transformers.generation import SynthIDTextWatermarkingConfig
 
+    # transformers builds the SynthID g-value sampling table with a
+    # torch.Generator on the generation device, and CPU/CUDA generators
+    # yield different streams for the same seed — so a watermark embedded
+    # on GPU is invisible to a CPU-built detector. Canonicalize the table
+    # on the CPU stream so local verification matches GPU generation.
+    original_construct = SynthIDTextWatermarkingConfig.construct_processor
+
+    def construct_with_cpu_table(self, vocab_size, device):
+        processor = original_construct(self, vocab_size, device)
+        cpu_table = original_construct(self, vocab_size, "cpu").sampling_table
+        processor.sampling_table = cpu_table.to(device)
+        return processor
+
+    SynthIDTextWatermarkingConfig.construct_processor = construct_with_cpu_table
+
     tokenizer = AutoTokenizer.from_pretrained(MODEL)
     model = AutoModelForCausalLM.from_pretrained(MODEL, dtype=torch.bfloat16, device_map="cuda")
     cache.commit()
