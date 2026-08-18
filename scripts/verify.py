@@ -50,15 +50,19 @@ def score(processor, special_ids, token_ids):
 
 def main():
     from transformers import AutoTokenizer
-    from transformers.generation import SynthIDTextWatermarkLogitsProcessor
+    from transformers.generation import (
+        SynthIDTextWatermarkingConfig,
+        SynthIDTextWatermarkLogitsProcessor,
+    )
 
     raw = json.loads((ROOT / "data" / "raw_pairs.json").read_text())
     assert raw["watermark"] == {"keys": WATERMARK_KEYS, "ngram_len": NGRAM_LEN}
     assert raw["model"] == MODEL
 
-    processor = SynthIDTextWatermarkLogitsProcessor(
-        keys=WATERMARK_KEYS, ngram_len=NGRAM_LEN, device="cpu"
-    )
+    # Same config class generation used, so table size/seed and context
+    # history defaults can't drift between embedding and detection.
+    config = SynthIDTextWatermarkingConfig(keys=WATERMARK_KEYS, ngram_len=NGRAM_LEN)
+    processor = SynthIDTextWatermarkLogitsProcessor(device="cpu", **config.to_dict())
     special_ids = set(AutoTokenizer.from_pretrained(MODEL).all_special_ids)
 
     max_new = raw["sampling"]["max_new_tokens"]
