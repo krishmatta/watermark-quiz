@@ -5,6 +5,8 @@
 #   (a) the watermarked side's detection p-value is below ALPHA
 #   (b) the clean side's detection p-value is at or above ALPHA
 #   (c) both sides have at least MIN_TOKENS generated tokens
+#   (d) both sides ended naturally (EOS before the max_new_tokens cap);
+#       text cut off mid-sentence by the cap is unreadable in the quiz
 #
 # Passing pairs ship verbatim to docs/pairs.json (left/right order
 # randomized deterministically). Failing pairs go to
@@ -59,12 +61,21 @@ def main():
     )
     special_ids = set(AutoTokenizer.from_pretrained(MODEL).all_special_ids)
 
+    max_new = raw["sampling"]["max_new_tokens"]
+
+    def ended_naturally(ids):
+        return len(ids) < max_new or ids[-1] in special_ids
+
     shipped, rejected = [], []
     for pair in raw["pairs"]:
         s_wm = score(processor, special_ids, pair["token_ids_watermarked"])
         s_clean = score(processor, special_ids, pair["token_ids_clean"])
 
         reasons = []
+        if not ended_naturally(pair["token_ids_watermarked"]):
+            reasons.append(f"watermarked side hit the {max_new}-token cap")
+        if not ended_naturally(pair["token_ids_clean"]):
+            reasons.append(f"clean side hit the {max_new}-token cap")
         if s_wm["tokens"] < MIN_TOKENS:
             reasons.append(f"watermarked side has {s_wm['tokens']} tokens (< {MIN_TOKENS})")
         if s_clean["tokens"] < MIN_TOKENS:
