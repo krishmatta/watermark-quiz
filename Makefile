@@ -1,4 +1,7 @@
-.PHONY: gen verify deploy-worker
+.PHONY: gen verify test deploy-worker
+
+test:
+	uv run pytest tests/ -q
 
 gen:
 	uv run modal run scripts/generate_modal.py
