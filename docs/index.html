@@ -176,7 +176,7 @@ function answer(q, btn) {
   btn.classList.add(correct ? "picked-right" : "picked-wrong");
 
   const parts = [];
-  parts.push(`<span class="quiz-verdict ${correct ? "right" : "wrong"}">${correct ? "Right" : "Wrong"}</span> &mdash; the shaded text was watermarked.`);
+  parts.push(`<span class="quiz-verdict ${correct ? "right" : "wrong"}">${correct ? "Right" : "Wrong"}</span>. The shaded text was watermarked.`);
   const cl = crowdLine(q.id);
   if (cl) parts.push(cl);
 
