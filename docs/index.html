@@ -139,7 +139,7 @@ async function postAnswer(qid, correct) {
 
 function crowdLine(qid) {
   const q = crowd && crowd.questions[qid];
-  if (!q || q.shown < 5) return "";
+  if (!q || q.shown < 1) return "";
   return `${Math.round((100 * q.correct) / q.shown)}% of players got this correct.`;
 }
 
@@ -199,7 +199,7 @@ function showEnd() {
   const score = results.filter((r) => r.correct).length;
 
   let crowdBits = "";
-  if (crowd && crowd.global.shown >= 20) {
+  if (crowd && crowd.global.shown >= 1) {
     const pct = Math.round((100 * crowd.global.correct) / crowd.global.shown);
     crowdBits = `<p>Across all players so far, ${pct}% of answers are correct.</p>`;
   }
