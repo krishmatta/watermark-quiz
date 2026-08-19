@@ -2,8 +2,10 @@
 // stored IPs, no user ids. Counter updates are read-modify-write and so
 // slightly lossy under concurrency — acceptable here.
 
+import pairs from "../../docs/pairs.json";
+
 const ORIGIN = "https://watermark-quiz.krishmatta.net";
-const VALID_QIDS = new Set([0, 1, 3, 5, 7, 8, 10, 12, 13, 14, 15, 16, 17, 21, 22, 24, 25, 27, 28, 29]);
+const VALID_QIDS = new Set(pairs.map((p) => p.id));
 const DAILY_ANSWER_CAP = 200;
 
 const CORS = {
