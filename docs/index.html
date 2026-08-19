@@ -62,7 +62,22 @@
 </style>
 </head>
 <body>
-<nav class="site-nav"><a href="https://krishmatta.net/">Home</a><a href="https://krishmatta.net/writing/">Writing</a><a href="https://krishmatta.net/photography/">Photography</a><a href="https://krishmatta.net/reading/">Reading</a><a href="https://krishmatta.net/quotes/">Quotes</a><a href="https://krishmatta.net/travel/">Travel</a></nav>
+<nav class="site-nav" id="site-nav"><a href="https://krishmatta.net/">Home</a></nav>
+<script>
+// The nav lives at krishmatta.net/nav.html (single source, shared with
+// org-publish). Root-relative hrefs get absolutized for this subdomain.
+fetch("https://krishmatta.net/nav.html")
+  .then((r) => (r.ok ? r.text() : Promise.reject()))
+  .then((html) => {
+    const nav = new DOMParser().parseFromString(html, "text/html").querySelector("nav");
+    if (!nav) return;
+    for (const a of nav.querySelectorAll("a[href^='/']")) {
+      a.setAttribute("href", "https://krishmatta.net" + a.getAttribute("href"));
+    }
+    document.getElementById("site-nav").replaceWith(nav);
+  })
+  .catch(() => { /* fallback nav already in place */ });
+</script>
 <div id="content">
 <h1>Watermark Quiz</h1>
 <p>Both texts below were written by the same AI model, from the same prompt, with the same settings. One was generated with an invisible statistical watermark; the other wasn't. Ten rounds. Pick the watermarked one.</p>
