@@ -175,10 +175,8 @@ function answer(q, btn) {
   }
   btn.classList.add(correct ? "picked-right" : "picked-wrong");
 
-  const confW = ((q.scoreW - 0.5) * 200).toFixed(0);
   const parts = [];
   parts.push(`<span class="quiz-verdict ${correct ? "right" : "wrong"}">${correct ? "Right" : "Wrong"}</span> &mdash; the shaded text was watermarked.`);
-  parts.push(`The detector's g-value score: ${q.scoreW.toFixed(3)} for the watermarked text vs ${q.scoreC.toFixed(3)} for the clean one (0.5 = no watermark; even a +${confW}% excess is decisive over ~100 tokens).`);
   const cl = crowdLine(q.id);
   if (cl) parts.push(cl);
 
@@ -219,7 +217,7 @@ function showEnd() {
   render(`
     <h2>${score} / ${N_QUESTIONS}</h2>
     <p class="quiz-grid">${grid}</p>
-    <p>A coin flip gets 5/10 on average${score === 5 ? " &mdash; exactly your score, which is what the research predicts for humans" : ""}. The watermark is designed to be statistically detectable but imperceptible to readers.</p>
+    <p>A coin flip averages 5/10.</p>
     ${crowdBits}
     ${extremes}
     <div class="quiz-end-actions">
